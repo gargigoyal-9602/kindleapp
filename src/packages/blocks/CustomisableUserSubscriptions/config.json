@@ -1,0 +1,61 @@
+{
+  "id": "CustomisableUserSubscriptions",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CustomisableUserSubscriptions",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CustomisableUserSubscriptions"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CustomisableUserSubscriptions": {
+        "file": "CustomisableUserSubscriptions.tsx",
+        "extends": "CustomisableUserSubscriptionsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CustomisableUserSubscriptionsController",
+            "path": "./CustomisableUserSubscriptionsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CustomisableUserSubscriptionsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CustomisableUserSubscriptions"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CustomisableUserSubscriptionsBlock": {
+        "file": "CustomisableUserSubscriptionsBlock.tsx",
+        "extends": "CustomisableUserSubscriptionsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CustomisableUserSubscriptionsController",
+            "path": "./CustomisableUserSubscriptionsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CustomisableUserSubscriptionsController"
+          }
+        ]
+      }
+    }
+  }
+}

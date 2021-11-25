@@ -1,0 +1,61 @@
+{
+  "id": "AudioMusic",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/AudioMusic",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AudioMusic"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AudioMusic": {
+        "file": "AudioMusic.tsx",
+        "extends": "AudioMusicController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AudioMusicController",
+            "path": "./AudioMusicController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AudioMusicController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AudioMusic"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AudioMusicBlock": {
+        "file": "AudioMusicBlock.tsx",
+        "extends": "AudioMusicController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AudioMusicController",
+            "path": "./AudioMusicController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AudioMusicController"
+          }
+        ]
+      }
+    }
+  }
+}

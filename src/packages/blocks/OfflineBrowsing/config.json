@@ -1,0 +1,61 @@
+{
+  "id": "OfflineBrowsing",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/OfflineBrowsing",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "OfflineBrowsing"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "OfflineBrowsing": {
+        "file": "OfflineBrowsing.tsx",
+        "extends": "OfflineBrowsingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "OfflineBrowsingController",
+            "path": "./OfflineBrowsingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./OfflineBrowsingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "OfflineBrowsing"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "OfflineBrowsingBlock": {
+        "file": "OfflineBrowsingBlock.tsx",
+        "extends": "OfflineBrowsingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "OfflineBrowsingController",
+            "path": "./OfflineBrowsingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./OfflineBrowsingController"
+          }
+        ]
+      }
+    }
+  }
+}

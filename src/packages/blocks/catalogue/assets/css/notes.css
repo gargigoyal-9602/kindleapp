@@ -1,0 +1,279 @@
+.catalog-book.my-notes .card-list-wrapper .card .list {
+  border-radius: 15px;
+  display: flex;
+  padding: 18px 18px 12px 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.catalog-book.my-notes .card-list-wrapper .card .list .text strong {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  max-width: 150px;
+}
+.catalog-book.my-notes .card-list-wrapper .card .list .text .color-blue {
+  display: inline-block;
+  margin-top: 0px;
+  color: #4caeef;
+  font-weight: 400;
+}
+.catalog-book.my-notes .card-list-wrapper .card .list .list-inner {
+  display: flex;
+}
+.catalog-book.my-notes .card-list-wrapper .card .list .list-inner .img-part img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+.catalog-book.my-notes .card-list-wrapper .card .list img.arrow {
+  width: 28px;
+  height: 28px;
+}
+
+/********************buy-notes*************************/
+.buy-notes-page {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin-top: 20px;
+}
+.buy-notes-page .inner-divisions {
+  background-color: #f6f6f6;
+  display: flex;
+  /* width: 32.5%; */
+  border-radius: 10px;
+  padding: 18px 22px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  /* margin-right: 10px; */
+}
+
+.buy-notes-page .inner-divisions img {
+  height: 30px;
+}
+
+.buy-notes-page .inner-divisions p {
+  margin: 0;
+}
+.buy-notes-page .inner-divisions .middle-section {
+  margin: 0 10px;
+}
+.buy-notes-page .inner-divisions .middle-section .name-of-note {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.available-notes {
+  color: #3aaeef;
+  font-weight: 500;
+}
+
+.buy-notes-page .inner-divisions .last-section {
+  display: flex;
+  align-self: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .buy-notes-page .inner-divisions {
+    /* width: 49%; */
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .buy-notes-page .inner-divisions {
+    width: 100%;
+  }
+}
+
+/****************buy-note-preview page************************/
+.buy-notes-preview {
+  display: flex;
+}
+
+.buy-notes-preview .inner-divisions {
+  display: block;
+}
+
+.buy-notes-preview .inner-divisions .note-name-and-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.display-rating .MuiRating-root {
+  font-size: 1.2rem;
+}
+
+.pl-6px {
+  padding-left: 6px;
+}
+
+.edit-blog {
+  position: absolute;
+  right: 85px;
+  cursor: pointer;
+  top: 35px;
+  color: #4caeef;
+}
+.edit-blog img {
+  height: 16px;
+  margin-right: 10px;
+}
+
+/*****************purchased book preview********************/
+
+.purchased-book-preview .inner-divisions {
+  position: relative;
+}
+
+.purchased-book-preview .inner-divisions .more {
+  position: absolute;
+  right: -33px;
+  top: 8px;
+}
+
+#dynamic-menu .MuiPaper-root {
+  background-color: #fff;
+  border-radius: 15px;
+}
+.rate-dark .MuiPaper-root {
+  background-color: #424242 !important;
+  color: #fff !important;
+}
+.rate-dark .MuiPaper-root .MuiList-root .MuiListItem-root{
+  color: #fff !important;
+}
+
+
+@media screen and (max-width: 767px) {
+  .purchased-book-preview .inner-divisions {
+    /* width: 55%; */
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .purchased-book-preview .inner-divisions {
+    width: 92%;
+  }
+}
+
+#dynamic-menu .MuiPaper-root .MuiList-root .MuiListItem-root {
+  font-size: 0.775rem;
+  font-weight: 500;
+  color: #000;
+  padding: 10px 35px 10px 15px;
+}
+
+#dynamic-menu .MuiPaper-root .MuiList-root .MuiListItem-root span {
+  padding-right: 2px;
+}
+
+/**************************************/
+
+.display-book-rating {
+  background-color: #ebf7fe;
+  width: 33.33%;
+  text-align: center;
+  position: relative;
+  padding: 50px 0 15px;
+  border-radius: 35px;
+  margin-top: 45px;
+  margin-left: 20px;
+  box-shadow: 0px 40px 20px 0px #ededed;
+}
+.book-purchase-rating {
+  width: 300px;
+  margin-bottom: 150px;
+}
+.book-purchase-rating .ratingStars {
+  box-shadow: 0px 40px 20px 0px #ededed;
+}
+.display-book-rating .rounded-img {
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px 9px 5px 10px;
+  border-radius: 45px;
+  position: absolute;
+  top: -28px;
+  transform: translate(-50%, 0px);
+}
+
+.display-book-rating .rounded-img img {
+  height: 35px;
+}
+.book-purchase-rating p {
+  font-weight: 600;
+}
+.byAuthor {
+  color: #3aaeef;
+  text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+.authorTitle
+{
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.display-book-rating .MuiRating-root {
+  position: absolute;
+  bottom: -15px;
+  transform: translate(-50%, 0px);
+}
+.book-purchase-rating .MuiRating-root {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 40px;
+  bottom: -16px;
+  transform: translate(0px, 0px);
+}
+.book-purchase-rating svg {
+  font-size: 35px;
+}
+
+.display-book-rating .MuiRating-root .MuiRating-decimal {
+  font-size: 2rem;
+}
+.purchase-rating-page button {
+  /* position: fixed; */
+  /* bottom: 75px; */
+  /* width: 24.33%;
+  margin-left: 20px; */
+}
+.purchase-rating-page button {
+  width: 290px;
+  margin: 0 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .display-book-rating {
+    width: 45.33%;
+  }
+  .purchase-rating-page button {
+    width: 100%;
+    max-width: 290px;
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .display-book-rating {
+    width: 60%;
+  }
+  /* .purchase-rating-page button {
+    width: 56%;
+  } */
+}
+
+@media screen and (max-width: 425px) {
+  .display-book-rating {
+    width: 100%;
+    margin-left: 0;
+  }
+  /* .purchase-rating-page button {
+    width: 85%;
+    margin-left: 0;
+  } */
+}

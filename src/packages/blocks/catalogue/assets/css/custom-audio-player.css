@@ -1,0 +1,681 @@
+.d-none {
+  display: none;
+}
+.book-read {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.custom-video-player {
+  position: fixed;
+  width: 73%;
+  bottom: 82px;
+  z-index: 99;
+  margin: 0 auto;
+}
+.author-video-player {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  padding: 0 5%;
+}
+.book-read .video-player-col {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-video-player .rhap_container {
+  margin-bottom: 0;
+  width: 100%;
+  margin: auto;
+  background-color: #3aaeef;
+  border-radius: 20px;
+  height: 70px;
+}
+.custom-video-player.author-video-player .rhap_container {
+  margin-bottom: 0;
+  width: 100%;
+  margin: auto;
+  background-color: #3aaeef;
+  border-radius: 20px;
+  height: 90px;
+}
+.custom-video-player .rhap_container .rhap_main.rhap_stacked {
+  flex-direction: row;
+  position: relative;
+  /* justify-content: center; */
+  margin: 0 auto;
+  width: 70%;
+  left: 100px;
+}
+.custom-video-player.author-video-player .rhap_container .rhap_main.rhap_stacked {
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+  margin: 0;
+  width: 100%;
+  left: -14px;
+}
+.custom-video-player .rhap_controls-section {
+  position: absolute;
+  left: 35px;
+}
+.author-video-player .rhap_controls-section {
+  position: absolute;
+  /* left: auto; */
+  right: 15px;
+  top: 34px;
+}
+.custom-video-player .rhap_container .rhap_main.rhap_stacked .rhap_controls-section {
+  flex: 0 auto;
+  margin-top: 0;
+}
+.custom-video-player .rhap_container .rhap_main.rhap_stacked .rhap_controls-section .rhap_additional-controls,
+.custom-video-player .rhap_container .rhap_main.rhap_stacked .rhap_controls-section .rhap_volume-controls {
+  display: none;
+}
+
+.custom-video-player .rhap_container .rhap_main.rhap_stacked .rhap_progress-section #rhap_current-time {
+  position: absolute;
+  right: 45px;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 9;
+}
+.custom-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_progress-section
+  .rhap_progress-container
+  .rhap_progress-bar {
+  height: 48px;
+  border-radius: 25px;
+}
+.custom-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_progress-section
+  .rhap_progress-container
+  .rhap_progress-bar
+  .rhap_progress-indicator {
+  display: none;
+}
+.custom-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_progress-section
+  .rhap_progress-container
+  .rhap_progress-bar
+  .rhap_download-progress {
+  border-radius: 15px;
+  background-color: #fff;
+}
+.custom-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_progress-section
+  .rhap_progress-container
+  .rhap_progress-bar
+  .rhap_progress-filled {
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(219, 240, 252, 1);
+}
+.custom-video-player .rhap_container .rhap_main.rhap_stacked .rhap_progress-section {
+  position: relative;
+  width: 70%;
+  flex: 0 auto;
+}
+.custom-video-player .rhap_container .rhap_main.rhap_stacked .rhap_progress-section .rhap_total-time {
+  display: none;
+}
+.custom-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_controls-section
+  .rhap_main-controls
+  button.rhap_play-pause-button {
+  position: absolute;
+  left: -14px;
+  top: 5px;
+  /* background-color: red; */
+}
+.custom-video-player.author-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_controls-section
+  .rhap_main-controls
+  button.rhap_play-pause-button {
+  left: -5px;
+  top: -19px;
+}
+.custom-video-player .note-icon,
+.rhap_main-controls .rhap_rewind-button,
+.rhap_main-controls .rhap_forward-button {
+  display: none !important;
+}
+.custom-video-player.author-video-player .note-icon,
+.rhap_main-controls .rhap_rewind-button,
+.rhap_main-controls .rhap_forward-button {
+  display: flex !important;
+}
+.custom-video-player .rhap_main-controls button.rhap_rewind-button,
+.custom-video-player .rhap_main-controls button.rhap_forward-button {
+  display: none !important;
+}
+.custom-video-player.author-video-player .rhap_main-controls button.rhap_rewind-button,
+.custom-video-player.author-video-player .rhap_main-controls button.rhap_forward-button {
+  display: flex !important;
+}
+.custom-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_controls-section
+  .rhap_main-controls
+  button.rhap_play-pause-button
+  svg
+  path {
+  fill: #3aaeef;
+}
+.custom-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_controls-section
+  .rhap_main-controls
+  button.rhap_rewind-button,
+.custom-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_controls-section
+  .rhap_main-controls
+  button.rhap_forward-button {
+  background-color: white;
+  border-radius: 12px;
+  height: 35px;
+  padding: 8px;
+  display: flex;
+  margin: 6px;
+}
+.custom-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_controls-section
+  .rhap_main-controls
+  button.rhap_rewind-button {
+  position: absolute;
+  right: 10%;
+}
+.custom-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_controls-section
+  .rhap_main-controls
+  button.rhap_forward-button {
+  position: absolute;
+  right: 5%;
+}
+.custom-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_controls-section
+  .rhap_main-controls
+  button.rhap_rewind-button
+  svg,
+.custom-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_controls-section
+  .rhap_main-controls
+  button.rhap_forward-button
+  svg {
+  height: 20px;
+  width: 20px;
+}
+.custom-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_controls-section
+  .rhap_main-controls
+  button.rhap_rewind-button
+  svg
+  path,
+.custom-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_controls-section
+  .rhap_main-controls
+  button.rhap_forward-button
+  svg
+  path {
+  fill: #3aaeef;
+}
+.custom-video-player .select-speed {
+  position: absolute;
+  top: 33%;
+  right: 50px;
+}
+.custom-video-player.author-video-player .select-speed {
+  right: 15%;
+  top: 28px;
+}
+
+.custom-video-player .select-speed select {
+  background-color: #fff;
+  border: none;
+  height: 36px;
+  width: 38px;
+  border-radius: 12px;
+  -webkit-appearance: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: #3aaeef;
+  cursor: pointer;
+  text-align: center;
+}
+.custom-video-player .note-icon {
+  height: 34px;
+  width: 38px;
+  padding: 10px 12px;
+  position: absolute;
+  right: 6%;
+  top: 26px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.custom-video-player .note-icon img {
+  height: 14px;
+  margin-top: 1px;
+}
+.custom-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_controls-section
+  .rhap_main-controls
+  button.rhap_forward-button {
+  position: absolute;
+  right: 3.4%;
+}
+.custom-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_controls-section
+  .rhap_main-controls
+  button.rhap_rewind-button {
+  position: absolute;
+  right: -6px;
+}
+.custom-video-player.author-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_controls-section
+  .rhap_main-controls
+  button.rhap_forward-button {
+  right: 1.5%;
+}
+.custom-video-player.author-video-player
+  .rhap_container
+  .rhap_main.rhap_stacked
+  .rhap_controls-section
+  .rhap_main-controls
+  button.rhap_rewind-button {
+  right: 5%;
+  top: -22px;
+}
+
+.custom-video-player .rhap_play-pause-button {
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1600px) {
+  .custom-video-player {
+    bottom: 20px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .custom-video-player {
+    width: 63%;
+  }
+  .custom-video-player.author-video-player {
+    width: 100%;
+  }
+  .custom-video-player.author-video-player .select-speed {
+    right: 16%;
+    top: 26px;
+  }
+  .custom-video-player .note-icon {
+    right: 6.5%;
+  }
+  .custom-video-player .rhap_container .rhap_main.rhap_stacked {
+    width: 100%;
+    left: 0;
+  }
+  .custom-video-player .rhap_container .rhap_main.rhap_stacked .rhap_progress-section {
+    width: 90%;
+  }
+  .custom-video-player.author-video-player .rhap_container .rhap_main.rhap_stacked .rhap_progress-section {
+    width: 85%;
+  }
+  .custom-video-player .select-speed {
+    top: 26%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .custom-video-player .select-speed {
+    top: 33%;
+  }
+  .book-read .row {
+    margin: 0;
+  }
+  .custom-video-player {
+    width: 100%;
+    bottom: 0px;
+    left: 0;
+    padding: 20px;
+  }
+  .custom-video-player .rhap_container .rhap_main.rhap_stacked {
+    width: 100%;
+  }
+  .custom-video-player.author-video-player .rhap_container .rhap_main.rhap_stacked .rhap_progress-section {
+    width: 78%;
+  }
+  .custom-video-player .rhap_container .rhap_main.rhap_stacked .rhap_progress-section {
+    width: 93%;
+  }
+
+  /* .custom-video-player.author-video-player {
+    width: 73%;
+    bottom: 82px;
+    padding: 0%;
+    left: auto;
+  } */
+  .custom-video-player .rhap_container .rhap_main.rhap_stacked {
+    left: auto;
+  }
+  .custom-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_controls-section
+    .rhap_main-controls
+    button.rhap_play-pause-button {
+    left: -10px;
+  }
+  .custom-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_controls-section
+    .rhap_main-controls
+    button.rhap_rewind-button {
+    right: 9.9%;
+  }
+  .custom-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_controls-section
+    .rhap_main-controls
+    button.rhap_forward-button {
+    right: 4.4%;
+  }
+  .custom-video-player.author-video-player .select-speed {
+    right: 20%;
+    top: 50px;
+  }
+  .custom-video-player.author-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_controls-section
+    .rhap_main-controls
+    button.rhap_forward-button {
+    right: 2.5%;
+    top: -20px;
+  }
+  .custom-video-player.author-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_controls-section
+    .rhap_main-controls
+    button.rhap_rewind-button {
+    right: 10%;
+    top: -20px;
+  }
+  .custom-video-player .note-icon {
+    right: 4%;
+    top: 49px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .custom-video-player .rhap_container {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .custom-video-player .select-speed {
+    /* right: 25%; */
+  }
+  .book-read .content .right-side-panel {
+    height: auto;
+  }
+  .custom-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_controls-section
+    .rhap_main-controls
+    button.rhap_rewind-button {
+    right: 15.9%;
+    top: -23px !important;
+  }
+  .custom-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_controls-section
+    .rhap_main-controls
+    button.rhap_forward-button {
+    right: 9.4%;
+    top: -23px !important;
+  }
+  .custom-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_controls-section
+    .rhap_main-controls
+    button.rhap_play-pause-button {
+    left: -23px;
+  }
+  .custom-video-player.author-video-player .select-speed {
+    right: 25%;
+    top: 45px;
+  }
+  .custom-video-player .note-icon {
+    right: 5%;
+    top: 46px;
+  }
+  .custom-video-player .rhap_container .rhap_main.rhap_stacked {
+    width: 100%;
+  }
+  .custom-video-player.author-video-player .rhap_container .rhap_main.rhap_stacked {
+    width: auto;
+  }
+  .custom-video-player .rhap_container .rhap_main.rhap_stacked .rhap_progress-section {
+    width: 93%;
+    left: -14px;
+  }
+  .custom-video-player.author-video-player .rhap_container .rhap_main.rhap_stacked .rhap_progress-section {
+    width: 70%;
+    left: 10px;
+  }
+  /* .custom-video-player .rhap_container .rhap_main.rhap_stacked .rhap_progress-section {
+    width:100%;
+    left: -11px;
+  }
+  .custom-video-player.author-video-player .rhap_container .rhap_main.rhap_stacked .rhap_progress-section {
+    width: 93%;
+  } */
+}
+
+@media screen and (max-width: 767px) {
+  .custom-video-player {
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+  }
+  .book-read .content .book-reading-part,
+  .book-read .content .right-side-panel {
+    width: auto;
+  }
+  .custom-video-player .rhap_container .rhap_main.rhap_stacked .rhap_progress-section #rhap_current-time {
+    right: 27px;
+  }
+  .custom-video-player.author-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_progress-section
+    #rhap_current-time {
+    right: 5px;
+  }
+  .custom-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_controls-section
+    .rhap_main-controls
+    button.rhap_play-pause-button {
+    top: -15px;
+    left: -39px;
+  }
+  .custom-video-player.author-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_controls-section
+    .rhap_main-controls
+    button.rhap_play-pause-button {
+    left: -15px;
+    top: -60px;
+  }
+  .custom-video-player .rhap_play-pause-button {
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+  .custom-video-player.author-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_controls-section
+    .rhap_main-controls
+    button.rhap_rewind-button {
+    right: auto;
+    left: 77px;
+    top: -20px !important;
+  }
+  .custom-video-player.author-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_controls-section
+    .rhap_main-controls
+    button.rhap_forward-button {
+    left: 118px;
+    top: -20px !important;
+  }
+  .custom-video-player .rhap_container {
+    height: 70px;
+  }
+  .custom-video-player.author-video-player .rhap_container {
+    height: 100px;
+  }
+  .custom-video-player.author-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_progress-section
+    .rhap_progress-container
+    .rhap_progress-bar {
+    height: 48px;
+  }
+  .custom-video-player.author-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_progress-section
+    .rhap_progress-container
+    .rhap_progress-bar {
+    height: 40px;
+  }
+  .custom-video-player .rhap_container .rhap_main.rhap_stacked {
+    flex-direction: column;
+    top: 25px;
+    width: 100%;
+  }
+  .custom-video-player.author-video-player .rhap_container .rhap_main.rhap_stacked {
+    top: 29px;
+  }
+  .custom-video-player .rhap_container .rhap_main.rhap_stacked .rhap_progress-section {
+    width: 100%;
+    padding: 0;
+    top: -10px;
+    left: -21px;
+  }
+  .custom-video-player.author-video-player .rhap_container .rhap_main.rhap_stacked .rhap_progress-section {
+    width: 100%;
+    padding: 0;
+    top: -52px;
+    left: -33px;
+  }
+
+  .custom-video-player.author-video-player .rhap_container .rhap_main.rhap_stacked .rhap_progress-section {
+    width: 100%;
+    padding: 0;
+    top: -51px;
+    left: 0px;
+  }
+  .custom-video-player .select-speed {
+    /* right: 25%; */
+    top: 27px;
+    position: absolute;
+    /* left: 40px; */
+    right: 20px;
+  }
+  .custom-video-player.author-video-player .select-speed {
+    right: auto;
+    left: 86px;
+    top: 57%;
+  }
+  .custom-video-player.author-video-player .rhap_progress-container {
+    width: 100%;
+  }
+
+  .custom-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_controls-section
+    .rhap_main-controls
+    button.rhap_forward-button {
+    right: 36%;
+    top: 40px;
+  }
+
+  .custom-video-player
+    .rhap_container
+    .rhap_main.rhap_stacked
+    .rhap_controls-section
+    .rhap_main-controls
+    button.rhap_rewind-button {
+    right: 49.9%;
+    top: 40px;
+  }
+  .custom-video-player .note-icon {
+    top: 82px;
+    right: 8%;
+  }
+  .custom-video-player.author-video-player .note-icon {
+    top: 57%;
+    left: 211px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .my-notes-section {
+    width: 89%;
+  }
+  .my-notes-section .notes-detail .repeated-section .view-link {
+    white-space: normal;
+  }
+}

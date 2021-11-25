@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>🤸‍♂️Action Icon@2x</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.8">
+        <g id="05---Take-a-note" transform="translate(-1336.000000, -40.000000)">
+            <g id="menu-item-1" transform="translate(972.000000, 39.000000)">
+                <g id="🤸‍♂️Action-Icon" transform="translate(364.000000, 1.000000)">
+                    <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+                    <g id="small-right" transform="translate(8.000000, 11.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <polyline id="Path" transform="translate(4.000000, 2.000000) rotate(-270.000000) translate(-4.000000, -2.000000) " points="2 -2 6 2 2 6"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

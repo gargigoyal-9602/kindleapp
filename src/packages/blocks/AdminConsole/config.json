@@ -1,0 +1,61 @@
+{
+  "id": "AdminConsole",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/AdminConsole",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AdminConsole"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AdminConsole": {
+        "file": "AdminConsole.tsx",
+        "extends": "AdminConsoleController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AdminConsoleController",
+            "path": "./AdminConsoleController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AdminConsoleController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AdminConsole"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AdminConsoleBlock": {
+        "file": "AdminConsoleBlock.tsx",
+        "extends": "AdminConsoleController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AdminConsoleController",
+            "path": "./AdminConsoleController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AdminConsoleController"
+          }
+        ]
+      }
+    }
+  }
+}

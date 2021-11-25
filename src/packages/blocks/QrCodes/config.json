@@ -1,0 +1,61 @@
+{
+  "id": "QrCodes",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/QrCodes",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "QrCodes"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "QrCodes": {
+        "file": "QrCodes.tsx",
+        "extends": "QrCodesController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "QrCodesController",
+            "path": "./QrCodesController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./QrCodesController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "QrCodes"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "QrCodesBlock": {
+        "file": "QrCodesBlock.tsx",
+        "extends": "QrCodesController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "QrCodesController",
+            "path": "./QrCodesController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./QrCodesController"
+          }
+        ]
+      }
+    }
+  }
+}

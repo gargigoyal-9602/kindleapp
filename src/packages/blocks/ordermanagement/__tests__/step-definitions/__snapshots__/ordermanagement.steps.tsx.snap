@@ -1,0 +1,1643 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ordermanagement User cancel an order 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "#F7F8FA",
+      "flex": 1,
+      "paddingHorizontal": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Component
+    animationType="slide"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(49,49,49,0.8)",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 5,
+            "height": "25%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "75%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginVertical": 15,
+              }
+            }
+          >
+            Cancel Order
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "maxWidth": 250,
+                "textAlign": "center",
+                "width": 240,
+              }
+            }
+          >
+             
+            Are you sure you want to cancel the order?
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "grey",
+              "borderTopWidth": 0.5,
+              "flexDirection": "row",
+              "height": 40,
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="noCancel"
+          >
+            Cancel
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#000",
+                "height": 20,
+                "width": 0.5,
+              }
+            }
+          />
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="yesCancel"
+          >
+            Yes
+          </Text>
+        </View>
+      </View>
+    </View>
+  </Component>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "85%",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/ordermanagement/assets/emptyMyOrdersIcon.png",
+          }
+        }
+        style={
+          Object {
+            "height": "35%",
+            "marginTop": "15%",
+            "width": "40%",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginVertical": 10,
+          }
+        }
+      >
+        No Order
+      </Text>
+      <Text>
+        You haven't order any items. Browse 
+      </Text>
+      <Text>
+        More items to order
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ordermanagement User cancel an order 2`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "#F7F8FA",
+      "flex": 1,
+      "paddingHorizontal": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Component
+    animationType="slide"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={true}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(49,49,49,0.8)",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 5,
+            "height": "25%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "75%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginVertical": 15,
+              }
+            }
+          >
+            Cancel Order
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "maxWidth": 250,
+                "textAlign": "center",
+                "width": 240,
+              }
+            }
+          >
+             
+            Are you sure you want to cancel the order?
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "grey",
+              "borderTopWidth": 0.5,
+              "flexDirection": "row",
+              "height": 40,
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="noCancel"
+          >
+            Cancel
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#000",
+                "height": 20,
+                "width": 0.5,
+              }
+            }
+          />
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="yesCancel"
+          >
+            Yes
+          </Text>
+        </View>
+      </View>
+    </View>
+  </Component>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "85%",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/ordermanagement/assets/emptyMyOrdersIcon.png",
+          }
+        }
+        style={
+          Object {
+            "height": "35%",
+            "marginTop": "15%",
+            "width": "40%",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginVertical": 10,
+          }
+        }
+      >
+        No Order
+      </Text>
+      <Text>
+        You haven't order any items. Browse 
+      </Text>
+      <Text>
+        More items to order
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ordermanagement User cancel an order 3`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "#F7F8FA",
+      "flex": 1,
+      "paddingHorizontal": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Component
+    animationType="slide"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={true}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(49,49,49,0.8)",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 5,
+            "height": "25%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "75%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginVertical": 15,
+              }
+            }
+          >
+            Cancel Order
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "maxWidth": 250,
+                "textAlign": "center",
+                "width": 240,
+              }
+            }
+          >
+             
+            Are you sure you want to cancel the order?
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "grey",
+              "borderTopWidth": 0.5,
+              "flexDirection": "row",
+              "height": 40,
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="noCancel"
+          >
+            Cancel
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#000",
+                "height": 20,
+                "width": 0.5,
+              }
+            }
+          />
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="yesCancel"
+          >
+            Yes
+          </Text>
+        </View>
+      </View>
+    </View>
+  </Component>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "85%",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/ordermanagement/assets/emptyMyOrdersIcon.png",
+          }
+        }
+        style={
+          Object {
+            "height": "35%",
+            "marginTop": "15%",
+            "width": "40%",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginVertical": 10,
+          }
+        }
+      >
+        No Order
+      </Text>
+      <Text>
+        You haven't order any items. Browse 
+      </Text>
+      <Text>
+        More items to order
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ordermanagement User click on an order 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "#F7F8FA",
+      "flex": 1,
+      "paddingHorizontal": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Component
+    animationType="slide"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(49,49,49,0.8)",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 5,
+            "height": "25%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "75%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginVertical": 15,
+              }
+            }
+          >
+            Cancel Order
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "maxWidth": 250,
+                "textAlign": "center",
+                "width": 240,
+              }
+            }
+          >
+             
+            Are you sure you want to cancel the order?
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "grey",
+              "borderTopWidth": 0.5,
+              "flexDirection": "row",
+              "height": 40,
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="noCancel"
+          >
+            Cancel
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#000",
+                "height": 20,
+                "width": 0.5,
+              }
+            }
+          />
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="yesCancel"
+          >
+            Yes
+          </Text>
+        </View>
+      </View>
+    </View>
+  </Component>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "85%",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/ordermanagement/assets/emptyMyOrdersIcon.png",
+          }
+        }
+        style={
+          Object {
+            "height": "35%",
+            "marginTop": "15%",
+            "width": "40%",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginVertical": 10,
+          }
+        }
+      >
+        No Order
+      </Text>
+      <Text>
+        You haven't order any items. Browse 
+      </Text>
+      <Text>
+        More items to order
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ordermanagement User click on an order 2`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "#F7F8FA",
+      "flex": 1,
+      "paddingHorizontal": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Component
+    animationType="slide"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(49,49,49,0.8)",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 5,
+            "height": "25%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "75%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginVertical": 15,
+              }
+            }
+          >
+            Cancel Order
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "maxWidth": 250,
+                "textAlign": "center",
+                "width": 240,
+              }
+            }
+          >
+             
+            Are you sure you want to cancel the order?
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "grey",
+              "borderTopWidth": 0.5,
+              "flexDirection": "row",
+              "height": 40,
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="noCancel"
+          >
+            Cancel
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#000",
+                "height": 20,
+                "width": 0.5,
+              }
+            }
+          />
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="yesCancel"
+          >
+            Yes
+          </Text>
+        </View>
+      </View>
+    </View>
+  </Component>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "85%",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/ordermanagement/assets/emptyMyOrdersIcon.png",
+          }
+        }
+        style={
+          Object {
+            "height": "35%",
+            "marginTop": "15%",
+            "width": "40%",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginVertical": 10,
+          }
+        }
+      >
+        No Order
+      </Text>
+      <Text>
+        You haven't order any items. Browse 
+      </Text>
+      <Text>
+        More items to order
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ordermanagement User click on an order 3`] = `[Function]`;
+
+exports[`ordermanagement User navigates to ordermanagement 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "#F7F8FA",
+      "flex": 1,
+      "paddingHorizontal": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Component
+    animationType="slide"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(49,49,49,0.8)",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 5,
+            "height": "25%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "75%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginVertical": 15,
+              }
+            }
+          >
+            Cancel Order
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "maxWidth": 250,
+                "textAlign": "center",
+                "width": 240,
+              }
+            }
+          >
+             
+            Are you sure you want to cancel the order?
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "grey",
+              "borderTopWidth": 0.5,
+              "flexDirection": "row",
+              "height": 40,
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="noCancel"
+          >
+            Cancel
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#000",
+                "height": 20,
+                "width": 0.5,
+              }
+            }
+          />
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="yesCancel"
+          >
+            Yes
+          </Text>
+        </View>
+      </View>
+    </View>
+  </Component>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "85%",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/ordermanagement/assets/emptyMyOrdersIcon.png",
+          }
+        }
+        style={
+          Object {
+            "height": "35%",
+            "marginTop": "15%",
+            "width": "40%",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginVertical": 10,
+          }
+        }
+      >
+        No Order
+      </Text>
+      <Text>
+        You haven't order any items. Browse 
+      </Text>
+      <Text>
+        More items to order
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ordermanagement User navigates to ordermanagement 2`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "#F7F8FA",
+      "flex": 1,
+      "paddingHorizontal": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Component
+    animationType="slide"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(49,49,49,0.8)",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 5,
+            "height": "25%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "75%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginVertical": 15,
+              }
+            }
+          >
+            Cancel Order
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "maxWidth": 250,
+                "textAlign": "center",
+                "width": 240,
+              }
+            }
+          >
+             
+            Are you sure you want to cancel the order?
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "grey",
+              "borderTopWidth": 0.5,
+              "flexDirection": "row",
+              "height": 40,
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="noCancel"
+          >
+            Cancel
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#000",
+                "height": 20,
+                "width": 0.5,
+              }
+            }
+          />
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="yesCancel"
+          >
+            Yes
+          </Text>
+        </View>
+      </View>
+    </View>
+  </Component>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "85%",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/ordermanagement/assets/emptyMyOrdersIcon.png",
+          }
+        }
+        style={
+          Object {
+            "height": "35%",
+            "marginTop": "15%",
+            "width": "40%",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginVertical": 10,
+          }
+        }
+      >
+        No Order
+      </Text>
+      <Text>
+        You haven't order any items. Browse 
+      </Text>
+      <Text>
+        More items to order
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ordermanagement User navigates to ordermanagement 3`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "#F7F8FA",
+      "flex": 1,
+      "paddingHorizontal": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Component
+    animationType="slide"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(49,49,49,0.8)",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 5,
+            "height": "25%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "75%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginVertical": 15,
+              }
+            }
+          >
+            Cancel Order
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "maxWidth": 250,
+                "textAlign": "center",
+                "width": 240,
+              }
+            }
+          >
+             
+            Are you sure you want to cancel the order?
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "grey",
+              "borderTopWidth": 0.5,
+              "flexDirection": "row",
+              "height": 40,
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="noCancel"
+          >
+            Cancel
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#000",
+                "height": 20,
+                "width": 0.5,
+              }
+            }
+          />
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="yesCancel"
+          >
+            Yes
+          </Text>
+        </View>
+      </View>
+    </View>
+  </Component>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "85%",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/ordermanagement/assets/emptyMyOrdersIcon.png",
+          }
+        }
+        style={
+          Object {
+            "height": "35%",
+            "marginTop": "15%",
+            "width": "40%",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginVertical": 10,
+          }
+        }
+      >
+        No Order
+      </Text>
+      <Text>
+        You haven't order any items. Browse 
+      </Text>
+      <Text>
+        More items to order
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ordermanagement User rate an order 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "#F7F8FA",
+      "flex": 1,
+      "paddingHorizontal": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Component
+    animationType="slide"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(49,49,49,0.8)",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 5,
+            "height": "25%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "75%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginVertical": 15,
+              }
+            }
+          >
+            Cancel Order
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "maxWidth": 250,
+                "textAlign": "center",
+                "width": 240,
+              }
+            }
+          >
+             
+            Are you sure you want to cancel the order?
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "grey",
+              "borderTopWidth": 0.5,
+              "flexDirection": "row",
+              "height": 40,
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="noCancel"
+          >
+            Cancel
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#000",
+                "height": 20,
+                "width": 0.5,
+              }
+            }
+          />
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="yesCancel"
+          >
+            Yes
+          </Text>
+        </View>
+      </View>
+    </View>
+  </Component>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "85%",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/ordermanagement/assets/emptyMyOrdersIcon.png",
+          }
+        }
+        style={
+          Object {
+            "height": "35%",
+            "marginTop": "15%",
+            "width": "40%",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginVertical": 10,
+          }
+        }
+      >
+        No Order
+      </Text>
+      <Text>
+        You haven't order any items. Browse 
+      </Text>
+      <Text>
+        More items to order
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ordermanagement User rate an order 2`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "#F7F8FA",
+      "flex": 1,
+      "paddingHorizontal": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Component
+    animationType="slide"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(49,49,49,0.8)",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 5,
+            "height": "25%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "75%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginVertical": 15,
+              }
+            }
+          >
+            Cancel Order
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "maxWidth": 250,
+                "textAlign": "center",
+                "width": 240,
+              }
+            }
+          >
+             
+            Are you sure you want to cancel the order?
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "grey",
+              "borderTopWidth": 0.5,
+              "flexDirection": "row",
+              "height": 40,
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="noCancel"
+          >
+            Cancel
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#000",
+                "height": 20,
+                "width": 0.5,
+              }
+            }
+          />
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 16,
+              }
+            }
+            testID="yesCancel"
+          >
+            Yes
+          </Text>
+        </View>
+      </View>
+    </View>
+  </Component>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "85%",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/ordermanagement/assets/emptyMyOrdersIcon.png",
+          }
+        }
+        style={
+          Object {
+            "height": "35%",
+            "marginTop": "15%",
+            "width": "40%",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginVertical": 10,
+          }
+        }
+      >
+        No Order
+      </Text>
+      <Text>
+        You haven't order any items. Browse 
+      </Text>
+      <Text>
+        More items to order
+      </Text>
+    </View>
+  </View>
+</View>
+`;

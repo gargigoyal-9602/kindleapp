@@ -1,0 +1,462 @@
+.buy-book-ui .content {
+  margin-top: 80px;
+  width: calc(100% - 290px);
+  margin-left: 290px;
+  z-index: 9;
+  padding: 0 25px 20px 25px;
+  min-height: calc(100vh - 80px);
+}
+.buy-book-ui h3 {
+  margin-top: 10px;
+  font-size: 26px;
+  margin-bottom: 0%;
+}
+.buy-book-ui .payment-wrapper {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-part {
+  width: 49%;
+  background: #f5f5f5;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.process-completed {
+  background-color: #ebf6fd;
+  align-self: center;
+  min-height: 50vh;
+}
+
+.bottom-process-completed-section {
+  text-align: center;
+  margin-top: 40px;
+}
+.bottom-process-completed-section img {
+  height: 25px;
+}
+.bottom-process-completed-section p {
+  font-size: 12px;
+}
+
+.card-part .top-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-part .top-part h3 {
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.card-part .top-part img {
+  cursor: pointer;
+}
+.right-icon {
+  height: 35px;
+}
+
+.close-icon {
+  height: 45px;
+  cursor: pointer;
+}
+.card-part .top-part div strong {
+  display: block;
+}
+.card-part .msg-received-image {
+  display: flex;
+  justify-content: center;
+  padding: 40px 25px;
+  margin-bottom: 35px;
+}
+.enter-otp {
+  display: flex;
+}
+.enter-otp > div {
+  margin-right: 10px;
+  width: 20%;
+}
+.enter-otp > div .form-control {
+  font-size: 20px;
+  text-align: center;
+  color: #474747;
+  font-weight: 600;
+}
+.enter-otp > div:last-child {
+  margin-right: 0px;
+}
+.card-part .msg-received-image img {
+  max-width: 40%;
+}
+.buy-book-ui .payment-wrapper .review-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.buy-book-ui .payment-wrapper .review-part .image-details {
+  display: flex;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #fff;
+  margin-top: 15px;
+  position: relative;
+  margin-right: 10px;
+}
+.buy-book-ui .payment-wrapper .review-part .image-details .img-part {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 15px;
+}
+.buy-book-ui .payment-wrapper .review-part .image-details .img-part img {
+  height: 100%;
+  width: 100%;
+}
+.buy-book-ui .payment-wrapper .review-part .image-details .book-details {
+  padding-right: 40px;
+}
+.buy-book-ui .payment-wrapper .review-part .image-details .minus-icon {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  background-color: #e5e5e5;
+  border-radius: 50%;
+  color: #c1c1c1;
+  text-align: center;
+  font-size: 36px;
+  line-height: 30px;
+  right: 7px;
+  top: 7px;
+  cursor: pointer;
+}
+
+.repeat-lists {
+  max-height: 38vh;
+  overflow: auto;
+}
+
+.repeat-lists-1::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.repeat-lists::-webkit-scrollbar {
+  width: 4px;
+  background-color: #f5f5f5;
+}
+
+.repeat-lists::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #b0b0b0;
+}
+
+.buy-book-ui .payment-wrapper .review-part .image-details small {
+  display: block;
+  margin-top: 20px;
+}
+.buy-book-ui .payment-wrapper .review-part .price {
+  /* margin-top: 250px; */
+  text-align: center;
+}
+.buy-book-ui .payment-wrapper .review-part .price strong {
+  font-size: 29px;
+}
+.buy-book-ui .payment-wrapper .review-part .price strong b {
+  color: #ccc;
+  font-size: 25px;
+  margin-right: 5px;
+}
+.buy-book-ui .payment-wrapper .review-part .price strong span {
+  font-size: 15px;
+  font-weight: 400;
+}
+.w-100 {
+  width: 100%;
+}
+.btn-pay { 
+  border-radius: 6px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 10px;
+  border: none;
+  background: #3aaeef;
+  margin-top: 20px;
+  cursor: pointer;
+  height: 48px;
+  font-size:15px;
+  font-weight:600;
+  cursor: pointer;
+}
+
+.buy-book-ui .payment-wrapper .add-details-paymentcard .card-img {
+  width: 70%;
+  border-radius: 10px;
+  margin: 25px auto 15px auto;
+  overflow: hidden;
+}
+.buy-book-ui .payment-wrapper .add-details-paymentcard .card-img img {
+  width: 60%;
+}
+.buy-book-ui .payment-wrapper .add-details-paymentcard .form-group {
+  margin-bottom: 10px;
+}
+.resend-otp-link {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.resend-otp-link a {
+  color: #3aaeef;
+  text-decoration: none;
+}
+.resend-otp-link span {
+  float: right;
+}
+.buy-book-ui
+  .payment-wrapper
+  .add-details-paymentcard
+  .form-group
+  .form-control:focus-visible {
+  outline: 0px !important;
+}
+.card-part .form-group label {
+  margin-bottom: 10px;
+  display: block;
+  color: #979595;
+  font-size: 12px;
+  font-weight: 500;
+}
+.card-part .form-group .form-control {
+  background-color: #fff;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  min-height: 50px;
+  padding: 15px 10px;
+}
+/* .buy-book-ui .payment-wrapper .add-details-paymentcard .btn-pay {
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 10px;
+  width: 100%;
+  border: none;
+  background: #3AAEEF;
+  margin-top: 20px;
+} */
+
+.otp-received-payment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.margin-bottom-15 {
+  margin-bottom: 15px;
+}
+
+.buy-book-ui .payment-wrapper .add-details-paymentcard .form-group-wrap.v1 {
+  display: flex;
+  justify-content: space-between;
+}
+.buy-book-ui
+  .payment-wrapper
+  .add-details-paymentcard
+  .form-group-wrap.v1
+  .form-group {
+  width: 100%;
+  margin-right: 15px;
+}
+.buy-book-ui .payment-wrapper .add-details-paymentcard .form-group.cvv {
+  max-width: 180px;
+}
+.certification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.certification img {
+  margin-right: 15px;
+  height: 28px;
+}
+
+.certification span.color-gray {
+  color: #ccc;
+  font-size: 13px;
+  display: block;
+}
+.certification strong {
+  font-size: 14px;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track{
+  background-color: #94D1F2 !important;
+  border: 1px solid grey;
+  color:#F2F3F2 !important;
+  }
+  .MuiSwitch-track {
+    /* background-color: #grey !important; */
+    border: 1px solid grey;
+
+  }
+  .monthlyPrice p{
+    text-align: center;
+    line-height: 41px;
+    margin: 0;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .monthlyPrice p span:first-child {
+    font-size: 20px;
+    color: #505050;
+    margin-bottom: 2px;
+}
+.monthlyPrice p span:nth-child(2) {
+  font-size: 32px;
+  padding-left: 4px;
+  color: #100f21;
+}
+.monthlyPrice p span:nth-child(3) {
+  font-size: 16px;
+  padding-left: 4px;
+  color: #100f21;
+}
+@media screen and (max-width: 991px) {
+  .buy-book-ui h3 {
+    font-size: 22px;
+  }
+  .buy-book-ui .content {
+    padding-left: 25px;
+    margin-top: 117px;
+    margin-left: 0;
+    width: 100%;
+    min-height: calc(100vh - 118px);
+  }
+  /* .buy-book-ui .payment-wrapper {
+    display: block;
+  } */
+  /* .buy-book-ui .payment-wrapper .review-part {
+    width: 100%;
+  } */
+  .buy-book-ui .payment-wrapper .review-part .price {
+    margin-top: 50px;
+  }
+  /* .buy-book-ui .payment-wrapper .add-details-paymentcard {
+    width: 100%;
+  } */
+}
+@media screen and (max-width: 767px) {
+  .buy-book-ui .payment-wrapper {
+    display: block;
+  }
+  .card-part {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/***************congratulation box****************/
+
+.congratulation-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 30px 0;
+}
+
+.congratulation-box .inner-box {
+  background-color: #ebf6fd;
+  padding: 30px;
+  border-radius: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.congratulation-box .inner-box .button-section button {
+  display: block;
+}
+.congratulation-box .inner-box .text-big {
+  font-size: 1.4rem !important;
+  font-weight: 600;
+  margin-bottom: 1px;
+}
+.congratulation-box .inner-box .text-small {
+  color: #808080;
+  text-align: center;
+}
+.button-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-widthout-border {
+  color: #3aaeef;
+  border: navajowhite;
+  background-color: transparent;
+  font-size: 0.875rem;
+  padding: 15px 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.dynamic-img-section {
+  height: 160px;
+  width: 160px;
+  background-color: #cde9fa;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+.bottom-text {
+  max-width: 50%;
+  text-align: center;
+}
+
+.congratulation-box .inner-box .close-icon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.paymentcardLabel{
+  color: "#b2b3b9";
+  font-weight: "600",
+}
+@media screen and (max-width: 767px) {
+  .bottom-text {
+    max-width: 80%;
+  }
+  .card-part
+  {
+    padding: 10px;
+  }
+}
+
+.buy-book-switch {
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-wrap: nowrap !important;
+}
+.buy-book-switch .px1{
+  padding: 0 10px;
+}
+.m-r-20 {
+  margin-right: 20px;
+}
+
+.m-l-30 {
+  margin-left: 30px;
+}
+
+/* .StripeElement .__PrivateStripeElement iframe{
+  height: 48.8px !important;
+} */

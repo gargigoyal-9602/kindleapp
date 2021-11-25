@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon / Upload</title>
+    <defs>
+        <path d="M8.25051533,9 L8.25051533,11.6 L5.60432823,11.6 L4.66685051,19.4 L19.3340019,19.4 L18.3965242,11.6 L15.7503371,11.6 L15.7503371,9 L19.5002479,9 C20.130233,9 20.6627203,9.4875 20.7402185,10.1388 L21.9901887,20.5388 C22.0351877,20.9093 21.9239403,21.2811 21.686446,21.5606 C21.4502016,21.8401 21.1089597,22 20.7502182,22 L3.25063418,22 C2.8918927,22 2.55065081,21.8401 2.31315646,21.5606 C2.0756621,21.2811 1.96566472,20.9093 2.00941368,20.5388 L3.25938397,10.1388 C3.3381321,9.4875 3.87061944,9 4.50060446,9 L8.25051533,9 Z M12,2 L17,7.09090909 L13.25,7.09090909 L13.25,16 L10.75,16 L10.75,7.09090909 L7,7.09090909 L12,2 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon-/-Upload" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+        <g id="Group" mask="url(#mask-2)" fill="#000000" fill-opacity="0.1">
+            <g id="↳-Icon-Color">
+                <rect id="Rectangle-3" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

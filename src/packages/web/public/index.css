@@ -1,0 +1,42 @@
+html,
+body,
+#root,
+#root > div {
+  width: 100% !important;
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.MuiRating-root .MuiSvgIcon-root {
+  fill: currentColor !important;
+}
+#root .MuiBreadcrumbs-separator {
+  margin: 0;
+}
+#root .MuiBreadcrumbs-ol li p {
+  font-size: 15px !important;
+}
+
+/* .sidebar{
+  padding: "20px 40px 20px 0px !important",
+} */
+/* width */
+.sidebar::-webkit-scrollbar {
+  width: 4px;
+}
+/* Track */
+.sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+.sidebar::-webkit-scrollbar-thumb {
+  background: #d3c5c5;
+}
+/* Handle on hover */
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

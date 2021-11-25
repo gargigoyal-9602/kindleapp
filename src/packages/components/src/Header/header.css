@@ -1,0 +1,117 @@
+header {
+  background-color: #3aaeef !important;
+  height: 80px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 0 30px;
+}
+header nav .logo-img {
+  height: 40px;
+}
+
+header .search-bar {
+  background-color: #349cd6;
+  color: white;
+  width: 100%;
+  border-radius: 8px;
+  height: 50px;
+  padding-left: 35px;
+  display: flex;
+  position: relative;
+  margin-right: 26px;
+  margin-left: 11%;
+}
+
+header .MuiInputBase-root {
+  width: 100%;
+}
+header .MuiInputBase-root .MuiInputBase-input {
+  padding: 10px;
+  width: 100%;
+}
+/* .browse-btn {
+  margin-left: 12%;
+  margin-right: 3%;
+  background-color: #349cd6;
+  height: 50px;
+  border-radius: 8px;
+} */
+
+/* .browse-btn .MuiFormControl-root,
+.browse-btn .MuiFormControl-root .MuiInputBase-root {
+  height: 50px;
+  width: 100%;
+}
+.browse-btn .MuiFormControl-root .MuiInputBase-root .MuiInputBase-input {
+  padding: 12px;
+  color: #fff;
+  font-size: 0.75rem;
+}
+.browse-btn .MuiFormControl-root .MuiInputBase-root .MuiSelect-icon {
+  color: #fff;
+  font-size: 1.2rem;
+  right: 8px;
+  top: 11px;
+}
+
+.browse-btn .MuiFormControl-root .MuiInput-underline:before,
+.browse-btn .MuiFormControl-root .MuiInput-underline:after {
+  display: none;
+} */
+
+.show-notification {
+  margin-left: 5%;
+  margin-right: 2%;
+}
+.show-notification img{
+  width: 20px;
+}
+
+@media only screen and (max-width: 574px) {
+  header nav {
+    padding: 0 15px;
+  }
+  /* .browse-btn {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .browse-btn .withRouter\(AppHeader\)-formControl-7 {
+    min-width: 90px;
+  } */
+  .show-notification {
+    margin-left: 0%;
+  }
+  header .search-bar input {
+    padding: 13px 15px;
+  }
+  header .search-bar {
+    margin-right: 20px;
+  }
+  .MuiFormControlLabel-root-1515 {
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  header nav {
+    padding: 0 5px;
+  }
+}
+
+.dark1,
+.dark1 {
+  background-color: #424242 !important;
+  color: #fff !important;
+}
+.dark2 {
+  background-color: #2f3134 !important;
+  color: #fff !important;
+}
+
+.dark-theme-switch .Mui-checked {
+  color: #4caeef !important;
+}

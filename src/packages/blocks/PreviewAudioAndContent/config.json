@@ -1,0 +1,61 @@
+{
+  "id": "PreviewAudioAndContent",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/PreviewAudioAndContent",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PreviewAudioAndContent"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PreviewAudioAndContent": {
+        "file": "PreviewAudioAndContent.tsx",
+        "extends": "PreviewAudioAndContentController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PreviewAudioAndContentController",
+            "path": "./PreviewAudioAndContentController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PreviewAudioAndContentController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PreviewAudioAndContent"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PreviewAudioAndContentBlock": {
+        "file": "PreviewAudioAndContentBlock.tsx",
+        "extends": "PreviewAudioAndContentController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PreviewAudioAndContentController",
+            "path": "./PreviewAudioAndContentController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PreviewAudioAndContentController"
+          }
+        ]
+      }
+    }
+  }
+}

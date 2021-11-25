@@ -1,0 +1,308 @@
+
+.my-earnings h3 {
+  margin-top: 20px;
+  font-size: 26px;
+  margin-bottom: 0%;
+}
+.my-earnings .content {
+  margin-top: 100px;
+  width: calc(100% - 290px);
+  margin-left: 290px;
+  z-index: 9;
+  padding: 0 0 20px 25px;
+}
+.my-earnings .inner-block {
+  display: flex;
+  justify-content: space-between;
+}
+.my-earnings .inner-block .left-part {
+  width: 23%;
+}
+.my-earnings .inner-block .left-part .graph-box {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 5px 10px 10px #e0dcdc;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+/* .left{
+  width :16px
+} */
+.instore-left-part {
+  width: auto;
+}
+
+.instore-right-part {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.arrows img {
+  width: 20px;
+}
+.my-earnings .inner-block .left-part .graph-box .top-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  padding: 0 15px;
+}
+.my-earnings .inner-block .left-part .graph-box .top-part .month {
+  text-align: center;
+}
+.my-earnings .inner-block .left-part .graph-box .top-part .month strong {
+  display: block;
+  font-size: 1rem;
+}
+.my-earnings .inner-block .left-part .graph-box .top-part .month span {
+  color: #c5c3c3;
+}
+.my-earnings .inner-block .left-part .graph-box .top-part button {
+  background: transparent;
+  border: none;
+}
+.my-earnings .inner-block .left-part .counter-wrap {
+  background: #f5f5f5;
+  overflow: hidden;
+  padding: 0;
+  margin-top: 35px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.my-earnings .inner-block .left-part .counter-wrap .counter-cell {
+  width: 50%;
+  padding: 23px 30px;
+  min-height: 130px;
+}
+.my-earnings .inner-block .left-part .counter-wrap .counter-cell .img-part {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.my-earnings .inner-block .left-part .counter-wrap .counter-cell img {
+  width: 23px;
+}
+.my-earnings .inner-block .left-part .counter-wrap .counter-cell span.tag {
+  display: block;
+  color: #c9c5c5;
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-left: 5px;
+}
+.my-earnings .inner-block .left-part .counter-wrap .counter-cell strong {
+  font-size: 30px;
+  font-weight: 400;
+}
+.my-earnings .inner-block .left-part .counter-wrap .counter-cell .progress-bar {
+  width: 100%;
+  margin-top: 8px;
+  height: 2px;
+  background: #ccc;
+  position: relative;
+}
+.my-earnings
+  .inner-block
+  .left-part
+  .counter-wrap
+  .counter-cell
+  .progress-bar
+  .progress {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 2px;
+  content: "";
+  z-index: 1;
+}
+.my-earnings
+  .inner-block
+  .left-part
+  .counter-wrap
+  .counter-cell
+  .progress-bar
+  .progress.color-purple {
+  width: 90%;
+  background-color: #c773c7;
+}
+
+.border-right {
+  border-right: 1px solid #ccc;
+}
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+}
+
+/*--------------Right part-------------*/
+.my-earnings .inner-block .right-part {
+  background: #f5f5f5;
+  padding: 30px 30px;
+  width: 30%;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.my-earnings .inner-block .right-part .title {
+  font-size: 1rem;
+}
+
+.my-earnings .inner-block .right-part .block-details {
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 20px;
+}
+.my-earnings .inner-block .right-part .block-details .tag-line {
+  background-color: #f6cd9a;
+  margin-bottom: 12px;
+  color: #000;
+  border-radius: 15px;
+  padding: 0 10px;
+  font-size: 13px;
+  min-height: 20px;
+  display: inline-block;
+  float: right;
+}
+.my-earnings .inner-block .right-part .block-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.my-earnings .inner-block .right-part .block-details ul li {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.my-earnings .inner-block .right-part .block-details ul li .fisrt-section {
+  display: flex;
+}
+.my-earnings .inner-block .right-part .block-details ul li .fisrt-section img {
+  height: 40px;
+}
+.my-earnings
+  .inner-block
+  .right-part
+  .block-details
+  ul
+  li
+  .fisrt-section
+  .discription-part {
+  margin-left: 15px;
+}
+.my-earnings .inner-block .right-part .block-details ul li .discription-part p {
+  margin: 0;
+  font-weight: 600;
+}
+.my-earnings .inner-block .right-part .block-details ul li .price-part p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+.my-earnings .inner-block .right-part .block-details ul li .price-part strong {
+  font-size: 19px !important;
+}
+
+.my-earnings .inner-block .right-part .balance-pending {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  background: #eaf7fe;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 101px;
+  box-shadow: 5px 15px 25px #e0edf5;
+  position: relative;
+}
+.my-earnings .inner-block .right-part .balance-pending strong {
+  font-size: 1.2rem;
+}
+.my-earnings .inner-block .right-part .balance-pending .price {
+  display: flex;
+  align-items: center;
+}
+.my-earnings .inner-block .right-part .balance-pending .price small {
+  font-size: 17px;
+  margin-right: 4px;
+}
+.my-earnings .inner-block .right-part .balance-pending .btn-primary {
+  border: none;
+  color: #fff;
+  padding: 11px 30px;
+  background-color: #3aaeef;
+  font-weight: 600;
+  border-radius: 8px;
+}
+.my-earnings .inner-block .right-part .balance-pending::after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  background-image: url("../images/Upload.png");
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  top: -87px;
+  left: 41%;
+  border-radius: 50%;
+  border-bottom: 12px solid white;
+  padding: 15px;
+}
+
+@media screen and (max-width: 1600px) {
+  .my-earnings .inner-block .left-part {
+    width: 30%;
+  }
+  .my-earnings .inner-block .right-part {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .my-earnings .inner-block .left-part {
+    width: 45%;
+  }
+  /* .my-earnings .inner-block .right-part{
+           width: 50%;
+      } */
+  .my-earnings .inner-block .right-part {
+    padding: 20px 20px;
+  }
+  .my-earnings .inner-block .left-part .counter-wrap .counter-cell strong {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .my-earnings h3 {
+    font-size: 22px;
+  }
+  .my-earnings .content {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0;
+    margin-top: 125px;
+  }
+  .my-earnings .inner-block {
+    display: block;
+    margin-top: 20px;
+  }
+  .my-earnings .inner-block .left-part {
+    width: 50%;
+  }
+  .my-earnings .inner-block .right-part {
+    padding: 20px 15px;
+    margin-top: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .my-earnings .inner-block .left-part {
+    width: 100%;
+  }
+}

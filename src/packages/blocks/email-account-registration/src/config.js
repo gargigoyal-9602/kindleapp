@@ -1,0 +1,45 @@
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+exports.placeHolderEmail = "Email";
+exports.pleaseEnterAValidEmail = "Please enter a valid email";
+exports.emailIsRequired = "Email is required";
+exports.nameIsRequired = "Full Name is required";
+exports.labelHeader = "Value proposition: why users should sign up.";
+exports.labelFirstName = "Full name";
+exports.lastName = "Last name";
+exports.labelEmail = "Email";
+exports.labelPassword = "Password";
+exports.labelRePassword = "Re-Type Password";
+exports.errorCountryCodeNotSelected = "Please select country code";
+exports.errorBlankField = "can't be blank";
+exports.pleaseEnterAPassword = "Please enter a password";
+exports.passwordMustBeAtLeast2Characters = "Password must be at least 6 characters";
+exports.labelLegalText =
+  "Legal text: By signing up you agree to our Terms &amp; conditions and Privacy policy.";
+
+exports.labelLegalTermCondition = "Terms and conditions";
+exports.labelLegalPrivacyPolicy = "Privacy policy";
+exports.btnTextSignUp = "Sign up";
+exports.errorPasswordNotValid = "Password not valid.";
+
+exports.errorTitle = "Error";
+
+exports.errorBothPasswordsNotSame = "Passwords should be same.";
+exports.errorAllFieldsAreMandatory = "All fields are mandatory.";
+exports.errorpolicyNotchecked="Please agree to privacy policy."
+exports.contentTypeApiAddDetail = "application/json";
+
+exports.accountsAPiEndPoint =
+  "account_block/accounts";
+
+exports.apiMethodTypeAddDetail = "POST";
+
+exports.errorEmailNotValid = "Email not valid.";
+exports.urlGetValidations =
+  "profile/validations";
+exports.validationApiContentType = "application/json";
+
+exports.validationApiMethodType = "GET";
+

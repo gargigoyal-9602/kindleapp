@@ -1,0 +1,9 @@
+export const imgPasswordVisible = require("../assets/ic_password_visible.png");
+export const imgPasswordInVisible = require("../assets/ic_password_invisible.png");
+// export const fbIcon = require("../assets/fb_icon.png");
+export const font = require('../assets/Poppins-Bold.ttf');
+export const background = require('../assets/background.png')
+export const fbIcon = require("../assets/fb_icon.png");
+export const googleIcon = require("../assets/google.png");
+export const peddlerImage = require("../assets/peddler.png");
+export const sliderImage = require('../assets/slider.png');

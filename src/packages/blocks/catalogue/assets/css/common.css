@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+.button {
+  border: none;
+  height: 48px;
+  border-radius: 15px;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.button:hover {
+  box-shadow: 0px 0px 23px 2px rgba(0, 0, 0, 0.3);
+}
+.button-primary {
+  background-color: #3aaeef;
+  color: #fff;
+}
+
+.button-transparent {
+  background-color: transparent;
+  color: #78797a;
+}
+
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-25 {
+  width: 25%;
+}
+.m-b-5 {
+  margin-bottom: 5px;
+}
+.m-b-10 {
+  margin-bottom: 10px;
+}
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+.savebtn {
+  display: flex;
+  justify-content: center;
+}
+
+.cancelPass {
+  color: #349cd6;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/*********dark theme colors******************/
+
+.dark3 {
+  background-color: #1f2023 !important;
+  color: #fff !important;
+}
+.dark2 {
+  background-color: #2f3134 !important;
+  color: #fff !important;
+}
+.dark1 {
+  background-color: #424242 !important;
+  color: #fff !important;
+}
+.dark-mode {
+  background-color: #424242 !important;
+  /* color: #fff !important; */
+}
+
+
+.dark1 .btn {
+  background-color: #424242 !important;
+  color: #fff !important;
+}
+
+.dark2 li {
+  background-color: #2f3134 !important;
+  color: #fff !important;
+}
+
+.dark-back {
+  background-color: #303030 !important;
+}
+.darkFont p {
+  color: #fff !important;
+}
+.darkFont h5 {
+  color: #fff !important;
+}
+.darkFont span {
+  color: #fff !important;
+}
+.darkFo {
+  color: #fff !important;
+}
+.darkFo span {
+  color: #fff !important;
+}
+
+.dark-boxshadow {
+  box-shadow: none !important;
+}
+.bookMenuDark .MuiPopover-paper {
+ background-color: #424242 !important;
+  color: #fff !important;
+}
+.bookMenuDark .MuiButtonBase-root{
+  color:white !important
+}
+.dark2 .MuiOutlinedInput-input {
+  background-color: #2f3134 !important;
+  color: #fff !important;
+}
+.myNotes {
+  background-color: #303030 !important;
+}
+.myNotes .MuiAccordion-root{
+   background-color: #424242 !important;
+  color: #fff !important;
+}
+.content .MuiBreadcrumbs-separator {
+  margin: 0;
+}
+.content li {
+  font-size: 15px;
+}
+.content p {
+  font-size: 15px !important;
+}
+
+.viewallMyBooks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bookmenu .MuiPaper-root .MuiList-root .MuiListItem-root {
+  color: #000 !important;
+}
+/* custom checkbox */
+.custom-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+.custom-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  /* border: 1px solid #939393; */
+}
+.custom-checkbox + label:before {
+  content: "";
+  margin-right: -1px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 21px;
+  height: 21px;
+  background: #ffff;
+  /* top: 1px; */
+  margin-top: -3px;
+  border: 1px solid #d3c5c5;
+  border-radius: 4px;
+}
+.custom-checkbox:hover + label:before {
+  /* background: #3AAEEF; */
+}
+.custom-checkbox:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+.custom-checkbox:checked + label:before {
+  background: #3aaeef;
+}
+.custom-checkbox:disabled + label {
+  /* border:"1px solid #b8b8b8"; */
+  /* color: #b8b8b8; */
+  cursor: auto;
+}
+.custom-checkbox:disabled + label:before {
+  box-shadow: none;
+  background: #ddd;
+}
+.custom-checkbox:checked + label:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 8px;
+  background: white;
+  width: 2px;
+  height: 2px;
+  box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white,
+    4px -6px 0 white, 4px -8px 0 white;
+  transform: rotate(45deg);
+}
+
+.right-part {
+  height: fit-content !important;
+}
+

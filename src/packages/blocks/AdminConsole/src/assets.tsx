@@ -1,0 +1,46 @@
+export const imgPasswordVisible = require("../assets/images/ic_password_visible.png");
+export const imgPasswordInVisible = require("../assets/images/ic_password_invisible.png");
+export const CloseIcon = require("../assets/images/Close_Icon.png");
+export const pinkDownload = require("../assets/images/ICON Downloads.png");
+export const pdfIcon = require("../assets/images/group_PDF Icon.png");
+export const musicIcon = require("../assets/images/view_Music Icon.png");
+export const searchImage = require("../assets/images/Search.png");
+export const threeDot = require("../assets/images/image_Overflowmenu Icon.png");
+export const threeDotDark = require("../assets/images/menu_lightmode.png");
+export const publisherimage = require("../assets/images/Publisher Icon.png");
+
+export const EditIcon = require("../assets/images/Edit_Icon.png");
+export const BlockIcon = require("../assets/images/ic_password_invisible.png");
+export const DeleteIcon = require("../assets/images/Delete_Icon.png");
+export const dollor = require("../assets/images/Earnings_Icon.png");
+export const blueEyes = require("../assets/images/Viewers Icon.png");
+export const subscriptionIcon = require("../assets/images/Group_Subscription.svg");
+export const UploadImage = require("../assets/images/group_Upload Active.png");
+export const UploadImageInActive = require("../assets/images/group_Upload.png");
+export const studentIcon = require("../assets/images/All Students_Active.png");
+export const studentIconInActive = require("../assets/images/group_Icon Students.png");
+export const downloadIcon = require("../assets/images/Downloads_Active.png");
+export const downloadIconInactive = require("../assets/images/Downloads_Inactive.png");
+export const earningsIcon = require("../assets/images/Earnings_Active.png");
+export const earningsIconInactive = require("../assets/images/Earnings_Inactive.svg");
+
+export const logOutActive = require("../assets/images/Logout_active.png");
+export const logoutIcon = require("../assets/images/Logout_Inactive.png");
+export const notesIcon = require("../assets/images/Notes_Active.png");
+export const notesIconInactive = require("../assets/images/Notes_Inactive.png");
+export const publisherIcon = require("../assets/images/Publisher_Active.png");
+export const publisherIconInactive = require("../assets/images/view_Publisher Icon.png");
+export const subscriIcon = require("../assets/images/Subscription_Active.png");
+export const subscriIconInactive = require("../assets/images/Subscription_Inactive.svg");
+export const webLogo = require("../assets/images/Logo_WebApp.png");
+export const bellIcon = require("../assets/images/Notification.png");
+export const groupAdminIcon = require("../assets/images/group_Admin Active.png");
+export const groupAdminIconInactive = require("../assets/images/group_Admin.png");
+
+export const removeIcon = require("../assets/images/group_RemoveIcon.png");
+export const darkActive = require("../assets/images/Dark Mode_Active.png");
+export const darkInActive = require("../assets/images/Light Mode_Active.png");
+export const packageIcon = require("../assets/images/group_Package Active.png");
+export const packageInactive = require("../assets/images/group_Package Icon.png");
+export const bookName = require("../assets/images/Book Name_Empty.png");
+export const booklist = require("../assets/images/group_Change.png");

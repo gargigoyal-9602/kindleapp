@@ -1,0 +1,61 @@
+{
+  "id": "ReviewPrompt",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ReviewPrompt",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ReviewPrompt"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ReviewPrompt": {
+        "file": "ReviewPrompt.tsx",
+        "extends": "ReviewPromptController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ReviewPromptController",
+            "path": "./ReviewPromptController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ReviewPromptController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ReviewPrompt"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ReviewPromptBlock": {
+        "file": "ReviewPromptBlock.tsx",
+        "extends": "ReviewPromptController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ReviewPromptController",
+            "path": "./ReviewPromptController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ReviewPromptController"
+          }
+        ]
+      }
+    }
+  }
+}

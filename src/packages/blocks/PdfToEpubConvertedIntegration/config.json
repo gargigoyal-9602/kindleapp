@@ -1,0 +1,61 @@
+{
+  "id": "PdfToEpubConvertedIntegration",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/PdfToEpubConvertedIntegration",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PdfToEpubConvertedIntegration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PdfToEpubConvertedIntegration": {
+        "file": "PdfToEpubConvertedIntegration.tsx",
+        "extends": "PdfToEpubConvertedIntegrationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PdfToEpubConvertedIntegrationController",
+            "path": "./PdfToEpubConvertedIntegrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PdfToEpubConvertedIntegrationController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PdfToEpubConvertedIntegration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PdfToEpubConvertedIntegrationBlock": {
+        "file": "PdfToEpubConvertedIntegrationBlock.tsx",
+        "extends": "PdfToEpubConvertedIntegrationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PdfToEpubConvertedIntegrationController",
+            "path": "./PdfToEpubConvertedIntegrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PdfToEpubConvertedIntegrationController"
+          }
+        ]
+      }
+    }
+  }
+}

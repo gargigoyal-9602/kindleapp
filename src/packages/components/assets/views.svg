@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="20px" viewBox="0 0 26 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape</title>
+    <defs>
+        <path d="M20,11 C27.6363636,11 32,20 32,20 C32,20 27.6363636,29 20,29 C12.3636364,29 8,20 8,20 C8,20 12.3636364,11 20,11 Z M20.5,16 C18.5670034,16 17,17.5670034 17,19.5 C17,21.4329966 18.5670034,23 20.5,23 C22.4329966,23 24,21.4329966 24,19.5 C24,17.5670034 22.4329966,16 20.5,16 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Images-/-Avatar-/-Eye" transform="translate(-7.000000, -10.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" stroke="#060518" stroke-width="0.727272727" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

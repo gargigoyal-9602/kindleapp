@@ -1,0 +1,61 @@
+{
+  "id": "UploadMedia",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/UploadMedia",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "UploadMedia"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "UploadMedia": {
+        "file": "UploadMedia.tsx",
+        "extends": "UploadMediaController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "UploadMediaController",
+            "path": "./UploadMediaController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./UploadMediaController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "UploadMedia"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "UploadMediaBlock": {
+        "file": "UploadMediaBlock.tsx",
+        "extends": "UploadMediaController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "UploadMediaController",
+            "path": "./UploadMediaController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./UploadMediaController"
+          }
+        ]
+      }
+    }
+  }
+}

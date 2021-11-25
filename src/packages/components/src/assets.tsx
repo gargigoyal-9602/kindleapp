@@ -1,0 +1,13 @@
+export const bookLogo = require('../assets/BookLogo.png');
+export const navigator = require('../assets/navigator.png');
+export const homeIcon = require("../assets/HomeIcon.png");
+export const searchIcon = require('../assets/Search.png');
+export const bellIcon = require('../assets/bellIcon.png');
+export const editIcon = require('../assets/Icon_Edit.png');
+export const mybooksIcon = require('../assets/image_My Books.png');
+export const myNotesIcon = require('../assets/image_My Notes.png');
+export const purchasedNotes = require('../assets/image_Purchased Notes.png');
+export const myEarningsIcon = require('../assets/image_My Earnings.png');
+export const paymentHistoryIcon = require('../assets/image_Payment History.png');
+export const myPackegesIcon = require('../assets/image_My Packages.png');
+export const logoutIcon = require('../assets/logout.png')

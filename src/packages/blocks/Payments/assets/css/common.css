@@ -1,0 +1,59 @@
+/*********dark theme colors******************/
+
+.dark3 {
+  background-color: #1f2023 !important;
+  color: #fff !important;
+}
+
+.dark1 .btn,
+.dark1 {
+  background-color: #424242 !important;
+  color: #fff !important;
+}
+
+.dark2 li {
+  background-color: #2f3134 !important;
+  color: #fff !important;
+}
+
+.darkFont .darkFont p {
+  color: #fff !important;
+}
+
+.dark-boxshadow {
+  box-shadow: none !important;
+}
+
+.dark2 .MuiOutlinedInput-input {
+  background-color: #2f3134 !important;
+  color: #fff !important;
+}
+
+
+
+/*************************stripe-payment-detail************************/
+
+/* .stripe-payment-details .StripeElement .__PrivateStripeElement iframe{
+  height: 30.8px !important;
+} */
+
+.stripe-payment-details .card-inner-details{
+   margin-bottom: 10px;
+   background-color: #fff;
+   border: none;
+   width: 100%;
+   border-radius: 10px;
+   padding: 15px 10px;
+   margin-top: 10px;
+  
+}
+
+.card-inner-details.expiration{
+  width: 100%;
+}
+
+@media(min-width:320px) and (max-width:768px){
+ .cvv{
+    padding-left: 0px !important;
+  }
+}
